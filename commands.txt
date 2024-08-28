@@ -1,0 +1,109 @@
+----------------------------------------------------COMMANDS--------------------------------------------------------------------------
+
+mkdir------creates a file/directory(make a directory)
+cd --------changes from current directory to slected directory
+cd ..------moves to one directory up from current directory
+touch-------creates a files
+rm ---------used to remove the file or directory which is empty
+nano------pops up a editor it write content for file
+mv------------used to rename a file/directory,moves files to directory
+
+
+--------------------------------------------------------END----------------------------------------------------------
+
+
+
+mkdir hello
+--its creates a folder/directory named "hello"
+
+cd hello
+--cd commands navigates into/inside  the folder
+
+mkdir five one
+--it creates 2 folders  called "five" and "one "inside the "hello "folder 
+
+cd five 
+--it navigates insides folder "five"
+
+mkdir six
+--created a folder called "six" inside the folder "five"
+
+cd six
+--it navigates to folder  "six"
+
+touch c.txt
+--creates a text file  called "c" inside the folder "six" 
+
+mkdir seven
+--it creates a folder  "seven" inside the folder "six"
+
+cd seven
+--navigates inside the folder s"even"
+
+touch error.log
+--creates the  ".log" extension files inside the folder "seven"
+
+cd ..
+cd ..
+cd ..
+
+-- navigates out of the folder upto "hello" folder
+
+cd one
+--navigates to the folder one which was created in folder called "hello" which is root folder
+
+touch a.txt
+--it creates a text file  called "a" inside the folder "one"
+
+touch b.txt
+--creates a text file called "b" inside the folder "one"
+
+mkdir two
+--it creates an folder called "two" inside "one" folder
+
+cd two
+--navigates inside into the folder
+
+touch d.txt
+--creates a  text file called "d" in folder two
+
+mkdir three
+--creates a folder "three" inside folder "two"
+
+
+cd three
+--naviges inside the folder "three"
+
+touch e.txt
+--creates a text file called "e" in "three" folder
+
+mkdir four
+--creates a folder "four" inside folder "three"
+
+cd four
+--it navigates inside the folder
+
+touch access.log
+--creates a "log" extension file called "access" inside "four" folder
+
+cd ..
+cd ..
+cd ..
+cd ..
+
+--navigates out from the folder to root folder
+
+rm five/six/seven/error.log     one/two/three/four/access.log
+--this removes .log extension files frrom the folders
+
+nano a.txt
+-adds the content to the file called "a"
+
+rm -r five
+--removes folder "five"
+
+mv one uno
+--renames the foldername from "one" to "uno"
+
+mv uno/a.txt uno/two
+--it moves a.txt from uno to two folder 
